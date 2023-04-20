@@ -1,0 +1,254 @@
+body {
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header a {
+    color:#818c98;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: #0b223a;
+}
+#header img {
+    margin-left: 180px;
+    margin-right: 15px;
+}
+#header {
+    display: inline-block;
+    position: fixed;
+    height: 11vh;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+ #mainImage{
+    margin-top: 30px;
+ }
+  #main {
+    display: inline-flex;
+    margin-top: 80px;
+    background-color: #eef2f5;
+    height: 450px;
+    width:  100vw;
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+  }
+#sing {
+    margin-top: 40px;
+    display: flex;
+    background-color: #0b223a;
+    border-radius: 20px;
+    height: 500px;
+}
+#simgText {
+    margin-right: 150px;
+}
+#kits {
+    display:inline-flex;
+    margin-top: 35px;
+    text-align: center;
+}
+#kistDigital {
+    margin-right: 60px;
+    background-color: #eef2f5;
+    width: 680px;
+    border-radius: 30px;
+    height: 480px;
+}
+#kitsPhysicality {
+    background-color: #eef2f5;
+    margin-right: 50px;
+    width: 680px;
+    border-radius: 30px;
+    height: 480px;
+}
+#kits button{
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: white;
+}
+#kits button a{
+    text-decoration: none;
+    color: #0b223a;
+}
+#kits button:hover {
+    background-color: #0b223a;
+    color: white;
+}
+#kits button a:hover {
+    color: white;
+}
+#foter {
+    display: grid;
+    grid-template-columns: 20% auto 30%;
+    text-align: center;
+}
+#foter input {
+    width: 550px;
+    margin-bottom: 7px;
+}
+#foter #botoonFrom {
+    margin-top: 100px;
+    margin-right: 70px;
+}
+#foter button{
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    width: 550px;
+}
+#foter button:hover {
+    background-color: #0b223a;
+    color: white;
+    width: 550px;
+}
+
+#iconPhone{
+    color:#d5451d;
+    margin-right: 65px;
+}
+#iconEnvelope{
+    color: #15b7d1;
+    margin-right: 65px;
+
+} 
+#iconUser{
+    color: #f7c434;
+    margin-right: 65px;
+
+}
+#bottonLogo a{
+    color: #0b223a;
+    text-decoration: none;
+
+}
+#bottonLogo{
+    margin-right: 35px;
+}
+#bottonLogo img{
+    margin-top: 20px;
+   
+}
+@media screen and (max-width: 600px) {
+    #main {
+        width: 100%;
+        display: inline;
+    }
+    #main img {
+        margin-top: 100px;
+        width: 100%;
+    }
+    #header img {
+        display: none;
+    }
+    #kits {
+        display: inline;
+        width: 100%;
+    }
+    #kitsPhysicality {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #kits img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #kistDigital {
+        margin-right: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #foter {
+        display: inline;
+    }
+    #sing {
+        display: inline;
+        margin-right: 0px;
+    }
+    #simgText img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #singImage img {
+        width: 100%;
+    }
+    #simgText {
+        margin-right: 0px;
+    }
+    #foter input,textarea {
+        width: 290px;
+    }
+    #foter button {
+        width: 80%;
+    }
+    #foter img {
+        width: 100%;
+    }
+}
+#popup{
+display: none;
+  position: fixed;
+  height: 50%;
+  top: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+#popup button{
+    border:none;
+    height: 40px;
+    width: 200px;
+}
+
+
+#popup h1{
+    color: #0b223a;
+}
+body{
+    overflow-y: scroll;
+}
+#enter{
+    
+    border-radius: 50px;
+    height: 25px;
+}
+#enter a{
+    text-decoration: none;
+    color: #0b223a;
+}
+ h1{
+    margin-right: 85px;
+ }
+ #button{
+    background-color:#eef2f5;
+    width: 50px;
+    border: none;
+ }
+ #button i{
+    position: fixed;
+    left:138px;
+ }
+ #giftCard{
+    margin-top: 40px;
+    background-color: #eef2f5;
+    height: 450px;
+    width:  100vw;
+    margin-right: 1vw;
+border-radius: 50px;
+ }
+ #form{
+    background: url(image/children.PNG);
+ }
+ #form,#text{
+    display: inline-block;
+ }

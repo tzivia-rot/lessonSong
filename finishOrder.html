@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>סיום הזמנה</title>
+</head>
+<body>
+    <div id="content">
+        <img src="image/logo.gif" alt="">
+       <h2>תודה שקנית בשירשיעור</h2>
+    </div>
+    <button id="b"><a href="home.html">להמשך קניה</a></button>
+
+</body>
+<script>
+    const name=document.createElement('h3');
+    content.append(name);
+    const information=JSON.parse(sessionStorage.getItem('information')).split("$");
+    name.innerHTML=information[0];
+    const address=document.createElement('h3');
+    content.append(address);
+    address.innerHTML='ההזמנה התקבלה לכתובת:'+information[1]+" "+information[2];
+    const date=document.createElement('h3');
+    content.append(date);
+    let d1=new Date();
+    date.innerHTML=' ותשלח בתאריך:'
+    if(d1.getDay()+5<30)
+        {
+            date.innerHTML+=d1.getMonth()+' '+d1.getDay()+5;
+        }
+    else
+        {
+            date.innerHTML+=d1.getMonth()+1+' '+(d1.getDay()+5)%30;
+        }
+</script>
+<style>
+    body{
+        background-color: #0b223a;
+        text-align: center;
+        direction: rtl;
+    }
+    #content{
+        background-color: #eef2f5;
+        border-radius: 15px;
+        width: 80%;
+        height: 70vh;
+        margin-top: 5%;
+        margin-right: 10%;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 50px;
+    }
+    b{
+    border-radius: 20px;
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    width: 550px;
+    }
+h2{
+    margin-top: 25px;
+}
+    
+</style>
+</html>

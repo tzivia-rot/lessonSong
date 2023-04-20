@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+  <script src="js/bootstrap.js"></script>
+  <title>עמוד הבית</title>
+</head>
+
+<body>
+  <div id="header" class="">
+    <img src="image/logo.gif" height="80px" width="120px">
+    <a href="home.html"><b>דף הבית</a>
+    <a href="prodact.html">לכל המוצרים</a>
+    <a href="physical.html">ערכות פיזיות</a>
+    <a href="digital.html">צפייה דיגטלית</a>
+    <a href="game.html">למשחקים לדוגמא</a>
+    <a href="#foter">דברו איתנו</a></b>
+    <button type="button" class="btn btn-primary position-relative" id="button">
+      <a href="basket.html"><i class="fas fa-cart-plus"></i></a>
+      <span id="count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      </span>
+    </button>
+  </div>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert" id="popup">
+    <h1>רוצים לנסות את המשחקים שלנו</h1>
+    <img src="image/botoonImg.png" height="250px">
+    <button id="enter"><a href="game.html">כנסו עכשיו </a></button>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="(release())"></button>
+  </div>
+  <div id="main">
+    <div id="mainText">
+      <img src="image/textMain.png" height="330px">
+    </div>
+    <div id="mainImage">
+      <img src="image/main.png" height="330px">
+    </div>
+  </div>
+  <div id="kits">
+    <div id="kitsPhysicality">
+      <img src="image/סדרה-פיזי-21.png" width="550px">
+      <b>
+        <h1> ערכות פיזיות חוויתיות</h1>
+      </b>
+      <h3>הכי מתאים ללמידה מודרכת</h3>
+      <button><b><a href="physical.html">לכל הערכות</a> </b><i class="fas fa-arrow-left"></i></button>
+    </div>
+    <div id="kistDigital">
+      <img src="image/סדרה-דיגיטלית-1.png" width="550px">
+      <b>
+        <h1>ערכות דיגיטליות לצפיה</h1>
+      </b>
+      <h3>הכי מתאים לבית</h3>
+      <button><b><a href="digital.html">לכל הערכות</a> </b><i class="fas fa-arrow-left"></i></button>
+    </div>
+  </div>
+
+  <div id="sing">
+    <div id="simgText">
+      <img src="image/sing.PNG" height="450px" width="700px">
+    </div>
+    <div id="singImage">
+      <img src="image/singImg.png" height="450px" width="500px">
+    </div>
+  </div>
+
+
+  <div id="foter">
+    <div id="bottonLogo">
+      <img src="image/logo.gif" alt="">
+      <i class="fas fa-phone" id="iconPhone"></i> 072-2132999<br><br>
+      <i class="fas fa-envelope" id="iconEnvelope"></i> <a href="mailto:cr0556723300@gmail.com">
+        sarah@shirshior.co.il</a><br><br>
+      <i class="fas fa-user-circle" id="iconUser"></i> האזור האישי שלי
+      </h5>
+    </div>
+    <div id="botoonFrom">
+      <b>
+        <h1>שמרו על קשר</h1>
+      </b>
+      <form id="contact" action="">
+        <input type="text" placeholder="שם " name="name"><br>
+        <input type="text" placeholder="טלפון" name="phone"><br>
+        <input type="email" placeholder="אמייל" name="email"><br>
+        <textarea name="" id="" cols="72" rows="5">איך נוכל לעזור?</textarea><br>
+        <button type="submit"><b>שליחה</b><i class="fas fa-arrow-left"></i></button>
+      </form>
+    </div>
+    <div id="botoonIng">
+      <img src="image/botoonImg.png" height="600px">
+    </div>
+  </div>
+
+</body>
+<script src="home.js"></script>
+
+</html>

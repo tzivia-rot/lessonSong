@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+  <link rel="stylesheet" href="product.css">
+  <script src="js/bootstrap.js"></script>
+  <title>כל המוצרים</title>
+</head>
+
+<body>
+  <div id="header">
+    <img src="image/logo.gif" height="80px" width="120px">
+    <a href="home.html"><b>דף הבית</a>
+    <a href="prodact.html">לכל המוצרים</a>
+    <a href="physical.html">ערכות פיזיות</a>
+    <a href="digital.html">צפייה דיגטלית</a>
+    <a href="game.html">משחקים</a>
+    <a href="#foter">דברו איתנו</a></b>
+    <button type="button" class="btn btn-primary position-relative" id="button">
+      <a href="basket.html"><i class="fas fa-cart-plus"></i></a>
+      <span id="count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      </span>
+    </button>
+  </div>
+  <div id="checkbox">
+    <input type="checkbox" onclick="sorting()" id="letters"><span>אותיות שרות</span><br>
+    <input type="checkbox" onclick="sorting()" id="concept"><span>מושגים שרים</span><br>
+    <input type="checkbox" onclick="sorting()" id="number"><span>מספרים שרים</span><br>
+    <input type="checkbox" onclick="sorting()" id="word"><span>מילים שרות</span><br>
+  </div>
+  <div id="proudact" class="row row-cols-1 row-cols-md-3 g-4"></div>
+  <div id="sort">
+    <div id="foter">
+      <div id="bottonLogo">
+        <img src="image/logo.gif" alt="">
+        <i class="fas fa-phone" id="iconPhone"></i> 072-2132999<br><br>
+        <i class="fas fa-envelope" id="iconEnvelope"></i> <a href="mailto:cr0556723300@gmail.com">
+          sarah@shirshior.co.il</a><br><br>
+        <i class="fas fa-user-circle" id="iconUser"></i> האזור האישי שלי
+        </h5>
+      </div>
+      <div id="botoonFrom">
+        <b>
+          <h1>שמרו על קשר</h1>
+        </b>
+        <form id="contact" action="">
+          <input type="text" placeholder="שם " name="name"><br>
+          <input type="text" placeholder="טלפון" name="phone"><br>
+          <input type="email" placeholder="אמייל" name="email"><br>
+          <textarea name="" id="" cols="72" rows="5">איך נוכל לעזור?</textarea><br>
+          <button type="submit"><b> שליחה </b><i class="fas fa-arrow-left"></i></button>
+        </form>
+      </div>
+      <div id="botoonIng">
+        <img src="image/botoonImg.png" height="600px">
+      </div>
+    </div>
+</body>
+<script>
+  sessionStorage.setItem('kind', JSON.stringify('proudact'));
+</script>
+<script src="jquery.js"></script>
+<script src="proudact.js"></script>
+<script src="sortProudact.js"></script>
+
+</html>

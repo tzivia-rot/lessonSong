@@ -1,0 +1,169 @@
+body {
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60px;
+}
+
+#header a {
+    color: #818c98;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 20px;
+
+}
+
+#header a:hover {
+    color: #0b223a;
+}
+
+#header img {
+    margin-left: 180px;
+    margin-right: 15px;
+}
+
+#header {
+    top: 0;
+    right: 0;
+    display: inline-block;
+    position: fixed;
+    z-index: 10;
+    height: 11vh;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    border-radius: 5%;
+    width: 28%;
+    padding: 30px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 3%;
+    font-size: 95%;
+    text-align: center;
+}
+
+.red:hover {
+    background-color: #d51d45;
+}
+
+.perpul:hover {
+    background-color: #9636ea;
+}
+
+.yellow:hover {
+    background-color: #f7c434;
+}
+
+.whiteblue:hover {
+    background-color: #14b8d1;
+}
+
+button {
+    border-radius: 150px;
+    height: 50px;
+}
+
+button:hover {
+    border: white;
+    color: white;
+}
+
+.card:hover {
+    border: none;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#foter {
+    display: grid;
+    grid-template-columns: 20% auto 30%;
+    text-align: center;
+}
+
+#foter input {
+    width: 550px;
+    margin-bottom: 7px;
+}
+
+#foter #botoonFrom {
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+#foter button {
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    width: 550px;
+}
+
+#foter button:hover {
+    background-color: #0b223a;
+    color: white;
+    width: 550px;
+}
+
+#iconPhone {
+    color: #d5451d;
+    margin-right: 65px;
+}
+
+#iconEnvelope {
+    color: #15b7d1;
+    margin-right: 65px;
+
+}
+
+#iconUser {
+    color: #f7c434;
+    margin-right: 65px;
+
+}
+
+#bottonLogo a {
+    color: #0b223a;
+    text-decoration: none;
+
+}
+
+#bottonLogo {
+    margin-right: 35px;
+}
+
+#bottonLogo img {
+    margin-top: 20px;
+
+}
+
+#letters {
+    margin-top: 7%;
+}
+
+#button {
+    background-color: #eef2f5;
+    width: 100px;
+    border: none;
+}
+
+#button i {
+    position: fixed;
+}
+
+#letters,
+#number,
+#concept,
+#word {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#checkbox {
+    border: 1px solid #eef2f5;
+}
